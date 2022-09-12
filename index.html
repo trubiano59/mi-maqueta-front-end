@@ -20,40 +20,45 @@
           <img src="Assets/img/images.png" alt="" width="30%" height="40%">
         </a>
         <ul class="list-group list-group-horizontal">
-        <li class="list-group-item"><i class="fa-brands fa-instagram fa-xl"></i></li>
-        <li class="list-group-item"><i class="fa-brands fa-facebook fa-xl"></i></li>
-        <li class="list-group-item"><i class="fa-brands fa-linkedin fa-xl"></i></li>
-        <li class="list-group-item"><i class="fa-brands fa-github fa-xl"></i></li>
-  <!-- Button trigger modal -->
+        <li class="list-group-item"><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-xl"></i></a></li>
+        <li class="list-group-item"><a href="https://www.linkedin.com/in/miguel-trubiano-83093229/" target="_blank"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+        <li class="list-group-item"><a href="https://www.github.com/" target="_blank"><i class="fa-brands fa-github fa-xl"></i></a></li>
+        <li class="list-group-item"><a href="https://login.live.com//" target="_blank"><i class="fa-brands fa-envelope fa-xl"></i></a></li>
         <li class="list-group-item">
-          <i class="fa-solid fa-user-lock fa-xl "type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <!-- Button trigger modal -->
+        <!-- Boton que abre el login -->
+          <i data-bs-toggle="modal" data-bs-target="#loginModal" class="fa-solid fa-user-lock fa-xl">
           </i>
         </li>
         </ul>
         </div>
         </nav>
+        <!-- FIN DE NAVEGACION-->
     <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="exampleModalLabel">Login</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
+          <form>
           <div class="mb-3 row">
-            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+            <label for="exampleInputEmail" class="col-sm-2 col-form-label">Email</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control-plaintext" id="staticEmail" value="email@dominio.com">
+              <input type="email" class="form-control-plaintext" id="exampleInputEmail" value="email@dominio.com">
             </div>
           </div>
           <div class="mb-3 row">
             <label for="inputPassword" class="col-sm-2 col-form-label">Contraseña</label>
             <div class="col-sm-10">
               <input type="password" class="form-control" id="inputPassword">
+              <div id="emailHelp" class="form-text">Nunca compartiremos tu información con nadie.</div>
             </div>
           </div>
         </div>
+         </form>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
           <button type="button" class="btn btn-primary">Iniciar Sesión</button>
@@ -61,8 +66,7 @@
       </div>
     </div>
   </div>
-   
-      </header>
+  </header>
       <!--Banner con foto--> 
       <section id="todo-sobre-mi" class="about">
          <div class="container-fluid text-center"></div>
@@ -83,7 +87,7 @@
             </div>
           </div>
       </section>
-      <!-- FIN DE NAVEGACION-->
+      
       <!--section 1--> 
       <!--acerca de mi-->
       <section id="Sobre Mi" class="Sobre Mi text-blue">
@@ -95,10 +99,11 @@
                      <img src="/assets/img/profile.jpg" class="perfil rounded-circle w-25" alt="..." title="...">
                      <br>
                      <span class="text-terciary nombre"> Miguel Angel Trubiano</span>
-                  </h1>
-                  <h3 class="tituloPerfil">Desarrollador Web Full Stack Jr</h3>
-                  <h3 class="mt-5 acerca"> <span class="text-primary"> Acerca de Mi</span></h3>
-                  <h4>Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end</h4>
+                     <br>
+                     <span class="tituloPerfil">Desarrollador Web Full Stack Jr</span>
+                    <h3 class="mt-5 acerca"> <span class="text-secundary"> Acerca de Mi</span></h3>
+                    <h4>Deseo ganar experiencia en desarrollo/programación aplicando y expandiendo las aptitudes adquiridas, teniendo interes en trabajar en equipo para compartir y profundizar habilidades que complementen mis conocimientos de programación y como Front End Developer Junior realizando diferentes programas, para lo cual trato diariamente en mi tiempo libre de recopilar información de cursos, explorando los últimos avances tecnológicos en el mundo del desarrollo web front-end y back-end</h4>
+                  </h1> 
                </div>
               </div>
             </div>
