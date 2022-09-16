@@ -125,8 +125,26 @@ h2 {
 /*sectión 4*/
 .conteSkills{
     background-color: rgba(23, 145, 145, 0.623);
+/*}*/
+
+
+/*{
+    background-color: #a1b5cd;
+    padding: 20px;
 }
 
+div {
+    background: #a1b5cd;
+}
+
+h1 {
+    background-color: #a1b5cd;
+}
+
+h1 {
+    text-align: center;
+}*/
+}
 
 .conteTextoTer{
     background-color:rgba(23, 145, 145, 0.623);
@@ -180,6 +198,7 @@ h2 {
     box-shadow: 0px 0px 20px rgba(0,0,0.5);
 }   
 
+
 meter
 {
     background-color: #000;
@@ -189,6 +208,8 @@ meter
     width: 200px;
 
 }
+
+
 
 
 .scrollspy-example {
