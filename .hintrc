@@ -43,6 +43,7 @@
           "width: fit-content"
         ]
       }
-    ]
+    ],
+    "highest-available-document-mode": "off"
   }
 }
